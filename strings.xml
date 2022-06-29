@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PAI&amp;TS</string>
+    <string name="pakistan_animal_identification_traceability_system"><![CDATA[Pakistan Animal Identification\n& Traceability System]]></string>
+    <string name="username">Username</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="please_provide_your_details">Please provide your details.</string>
+</resources>

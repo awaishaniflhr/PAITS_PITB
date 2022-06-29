@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:background="@color/white"
+        tools:ignore="ScrollViewSize">
+
+        <ImageView
+            android:id="@+id/splashscreen_img_clouds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/white_clouds_png_clipart_882_1" />
+        <ImageView
+            android:id="@+id/splashscreen_img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/government_of_punjab_logo_1e1a7ab42a_seeklogo_2_1_" />
+
+        <TextView
+            android:id="@+id/splashscreen_textview_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splashscreen_img_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/pakistan_animal_identification_traceability_system"
+            android:textAlignment="center"
+            android:textColor="@color/splash_font_color"
+            android:textSize="@dimen/_14ssp" />
+
+        <ImageView
+            android:id="@+id/splashscreen_img_goats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/activity_login_login_form"
+            android:background="@drawable/bottom_goats_ic" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/activity_login_login_form"
+            android:layout_below="@+id/splashscreen_textview_Title"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_back"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/login_font_color"
+                android:textSize="@dimen/_20ssp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/please_provide_your_details"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:textColor="@color/login_font_color"
+                android:textSize="@dimen/_16ssp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textStyle="normal"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:textColor="@color/login_font_color"
+                android:textSize="@dimen/_18ssp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textColor="@color/login_font_color"
+                android:textColorHint="@color/login_font_color"
+                android:textStyle="normal"
+                android:background="@drawable/login_activiy_rounded_edittext"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:inputType="text"
+                android:hint="@string/enter_your_username" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
