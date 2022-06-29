@@ -10,5 +10,5 @@
         android:background="#FFFFFF" />
     <stroke android:width="@dimen/_1sdp" android:color="#2D6C98
 " />
-    <solid android:color="#00FFFFFF"/>
+    <solid android:color="#80FFFFFF"/>
 </shape>
