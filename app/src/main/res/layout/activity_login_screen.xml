@@ -59,6 +59,8 @@
             android:layout_marginEnd="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_120sdp"
             android:background="@drawable/activity_login_rounded_layout"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
             android:orientation="vertical"
             android:paddingBottom="@dimen/_20sdp">
 
@@ -100,7 +102,6 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:background="@drawable/login_activiy_rounded_edittext"
-                android:focusable="true"
                 android:hint="@string/enter_your_username"
                 android:inputType="text"
                 android:paddingStart="@dimen/_20sdp"
@@ -130,10 +131,9 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:autofillHints="password"
-                android:hint="@string/password"
                 android:background="@drawable/login_activiy_rounded_edittext"
                 android:drawableEnd="@drawable/group"
-                android:focusable="true"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 android:maxLength="20"
                 android:paddingStart="@dimen/_20sdp"

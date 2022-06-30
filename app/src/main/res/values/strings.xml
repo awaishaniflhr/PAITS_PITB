@@ -10,4 +10,16 @@
     <string name="remember_for_30_days">Remember for 30 days</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="login">Login</string>
+    <string name="new_registration">New Registration</string>
+    <string name="animal_registration">Animal Registration (4/5)</string>
+    <string name="anmal_id">Anmal ID</string>
+    <string name="_14786359">14786359</string>
+    <string name="old_number_if_any">Old Number (If Any)</string>
+    <string name="type_here">Type Here</string>
+    <string name="animal_type">Animal Type</string>
+    <string name="species">Species</string>
+    <string name="class">Class</string>
+    <string name="breed">Breed</string>
+    <string name="gender">Gender</string>
+    <string name="age_d_o_b">Age/D.O.B</string>
 </resources>
