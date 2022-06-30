@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/_15sdp"
+    tools:context=".NewRegistrationPIATS">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_regis_new_animal_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_2sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anmal_id"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/_14786359"
+                android:maxLength="10"
+                android:padding="@dimen/_2sdp"
+                android:inputType="number"
+                android:textColor="@color/dark_gray"
+                android:textColorHint="@color/dark_gray"
+                android:textSize="@dimen/_16ssp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_new_animal_rl"
+        android:id="@+id/activity_regis_old_number_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/registration_round_edittext"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/old_number_if_any"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type_here"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/_12ssp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColorHint="@color/light_gray"
+                android:padding="@dimen/_2sdp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_old_number_rl"
+        android:id="@+id/activity_regis_animal_type_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+            <Spinner
+                android:id="@+id/sp_animal_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:theme="@style/spinner_Theme"
+                android:padding="@dimen/_5sdp" />
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_8sdp"
+            android:id="@+id/type_nav_drop_iv"
+            android:background="@drawable/nav_drop"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_animal_type_rl"
+        android:id="@+id/activity_regis_species_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/species"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_species"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:theme="@style/spinner_Theme"
+                android:padding="@dimen/_5sdp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_8sdp"
+            android:id="@+id/species_nav_drop_iv"
+            android:background="@drawable/nav_drop"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_species_rl"
+        android:id="@+id/activity_regis_class_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:theme="@style/spinner_Theme"
+                android:padding="@dimen/_5sdp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_8sdp"
+            android:id="@+id/class_nav_drop_iv"
+            android:background="@drawable/nav_drop"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_class_rl"
+        android:id="@+id/activity_regis_breed_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/breed"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_breed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textSize="20sp"
+                android:theme="@style/spinner_Theme" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_8sdp"
+            android:id="@+id/breed_nav_drop_iv"
+            android:background="@drawable/nav_drop"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/activity_regis_breed_rl"
+        android:id="@+id/activity_regis_gender_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_round_edittext"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textSize="20sp"
+                android:theme="@style/spinner_Theme" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_8sdp"
+            android:id="@+id/gender_nav_drop_iv"
+            android:background="@drawable/nav_drop"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_upload_gender"
+        android:visibility="gone"
+        android:layout_below="@+id/activity_regis_gender_rl">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll_upload_img"
+        android:layout_marginTop="@dimen/_14sdp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_upload_img"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:background="@drawable/animal_img"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:text="@string/upload_picture"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_submit"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:layout_below="@+id/ll_upload_img"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_48sdp"
+                android:id="@+id/savebtn"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_17sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@drawable/round_save_btn_green"
+                android:text="@string/save" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_17sdp"
+                android:id="@+id/continuebtn"
+                android:background="@drawable/activity_login_rounded_btn"
+                android:text="@string/save_continue" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/ll_upload_gender"
+        android:id="@+id/activity_regis_age_rl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_17sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:background="@drawable/registration_round_edittext"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age_d_o_b"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:layout_width="@dimen/_305sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:id="@+id/nextbtn"
+        android:layout_below="@+id/activity_regis_age_rl"
+        android:layout_marginTop="@dimen/_19sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:background="@drawable/activity_login_rounded_btn"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/login" />
+
+
+</RelativeLayout>
