@@ -14,6 +14,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Footer_PIATS"
+            android:exported="false" />
+        <activity
             android:name=".Splash_PIATS"
             android:exported="false" />
         <activity

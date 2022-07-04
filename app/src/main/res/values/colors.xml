@@ -14,8 +14,10 @@
     <color name="login_forgot_tv_color">#2D6C98</color>
     <color name="gray">#636363</color>
     <color name="blue">#2D6C98</color>
+    <color name="light_blue">#1DAEFF</color>
     <color name="dark_gray">#303030</color>
     <color name="light_gray">#B7B7B7</color>
+    <color name="footer_gray">#B9BCBE</color>
     <color name="green">#65C240</color>
 
 </resources>
