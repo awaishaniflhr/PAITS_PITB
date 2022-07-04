@@ -4,6 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FooterPIATS">
+    tools:context=".FooterPIATS"
+    android:padding="@dimen/_20sdp"
+    android:background="@color/extreme_light_gray">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="@dimen/_328sdp"
+            android:layout_height="@dimen/_58sdp"
+            android:background="@drawable/round_back_to_top_btn"
+            android:drawableTop="@drawable/nav_up"
+            android:paddingTop="@dimen/_25sdp" />
+
+
+    </RelativeLayout>
 
 </RelativeLayout>

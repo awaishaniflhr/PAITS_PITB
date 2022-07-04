@@ -18,8 +18,10 @@
     <string name="type_here">Type Here</string>
     <string name="animal_type">Animal Type</string>
     <string name="species">Species</string>
-    <string name="class">Class</string>
     <string name="breed">Breed</string>
     <string name="gender">Gender</string>
     <string name="age_d_o_b">Age/D.O.B</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="save_continue"><![CDATA[Save & Continue]]></string>
+    <string name="save">Save</string>
 </resources>

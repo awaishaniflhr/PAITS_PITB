@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="splash_font_color">#2D6C98</color>
+    <color name="extreme_light_gray">F0EBE3</color>
     <color name="login_font_color">#7a7a7a</color>
     <color name="login_check_btn_color">#D9D9D9</color>
     <color name="login_forgot_tv_color">#2D6C98</color>
@@ -15,5 +16,6 @@
     <color name="blue">#2D6C98</color>
     <color name="dark_gray">#303030</color>
     <color name="light_gray">#B7B7B7</color>
+    <color name="green">#65C240</color>
 
 </resources>

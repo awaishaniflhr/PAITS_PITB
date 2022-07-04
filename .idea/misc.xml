@@ -6,13 +6,19 @@
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/activity_login_rounded_btn.xml" value="0.1535" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/activity_login_rounded_layout.xml" value="0.156" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/login_activiy_rounded_edittext.xml" value="0.156" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/nav_up.xml" value="0.2115" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/registration_round_edittext.xml" value="0.1535" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/round_back_to_top_btn.xml" value="0.1" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/round_save_btn_green.xml" value="0.18" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/drawable/spinner_item.xml" value="0.18" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/font/roboto.xml" value="0.19153484395040615" />
-        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_footer_piats.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_footer_piats.xml" value="0.33" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_header_piats.xml" value="0.33" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_login_screen.xml" value="0.33" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_new_registration_piats.xml" value="0.33" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/activity_splash_piats.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/92301/AndroidStudioProjects/PAITS/app/src/main/res/layout/spinner_item.xml" value="0.16673792218896966" />
       </map>
     </option>
   </component>

@@ -12,18 +12,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/activity_header_ll"
         android:layout_marginTop="@dimen/_20sdp"
-        android:weightSum="3"
         android:orientation="horizontal">
         <ImageView
-            android:layout_width="@dimen/_22sdp"
-            android:layout_height="@dimen/_22sdp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
             android:id="@+id/header_iv_arrow_left"
-            android:layout_weight=".1"
-            android:background="@drawable/arrow_left_r"/>
+            android:layout_weight="0.2"
+            android:backgroundTint="@color/gray"
+            android:background="@drawable/arrow_back1"/>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2.8"
+            android:layout_weight="2.5"
             android:id="@+id/header_ll_title"
             android:gravity="center"
             android:orientation="vertical">
@@ -44,10 +44,12 @@
                 android:textColor="@color/blue"/>
         </LinearLayout>
         <ImageView
-            android:layout_width="@dimen/_6sdp"
-            android:layout_height="@dimen/_22sdp"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="@dimen/_20sdp"
+            android:backgroundTint="@color/gray"
             android:id="@+id/header_iv_more_vertical_menu"
-            android:background="@drawable/more_vertical"/>
+            android:background="@drawable/nav_drop_menu"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
