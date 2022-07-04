@@ -1,0 +1,358 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/_12sdp">
+
+        <LinearLayout
+            android:id="@+id/ll_registrations_animal_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_round_gray_border"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/animals_id"
+                android:textColor="@color/black_200"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/tv_animal_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:text="@string/_14786359"
+                android:textColor="@color/black_200"
+                android:textSize="@dimen/_14ssp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_registrations_animal_old_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_registrations_animal_id"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/old_number_if_any"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <EditText
+                android:id="@+id/et_animal_old_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@null"
+                android:hint="@string/type_here"
+                android:inputType="number"
+                android:maxLength="25"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/light_gray"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tv_animal_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/animal_type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <Spinner
+                android:id="@+id/sp_animal_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_animal_type"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:theme="@style/spinner_Theme" />
+
+            <ImageView
+                android:id="@+id/iv_animal_type"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/iv_arrow_drop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:paddingLeft="@dimen/_12sdp">
+
+
+            <TextView
+                android:id="@+id/tv_animal_species"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/species"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_species"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_animal_species"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:theme="@style/spinner_Theme" />
+
+            <ImageView
+                android:id="@+id/iv_animal_species"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/iv_arrow_drop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tv_animal_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="Class"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_animal_class"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:theme="@style/spinner_Theme" />
+
+            <ImageView
+                android:id="@+id/iv_animal_class"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/iv_arrow_drop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tv_animal_breed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/breed"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_breed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_animal_breed"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:theme="@style/spinner_Theme" />
+
+            <ImageView
+                android:id="@+id/iv_animal_breed"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/iv_arrow_drop" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tv_animal_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/gender"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <Spinner
+                android:id="@+id/sp_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_animal_gender"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_12ssp"
+                android:theme="@style/spinner_Theme" />
+
+            <ImageView
+                android:id="@+id/iv_animal_gender"
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:background="@drawable/iv_arrow_drop" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_12sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:text="@string/age_d_o_b"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11ssp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:background="@null"
+                android:hint="@string/type_here"
+                android:textAllCaps="false"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/light_gray"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_regis_age_rl"
+            android:layout_margin="@dimen/_12sdp"
+            android:background="@drawable/bg_round_gray_border"
+            android:backgroundTint="@color/dark_blue"
+            android:padding="@dimen/_12sdp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_upload_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_upload_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:background="@drawable/ic_image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:text="@string/upload_picture"
+                android:textColor="@color/dark_blue"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_round_gray_border"
+                android:backgroundTint="@color/green"
+                android:text="@string/save"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_continue"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_round_gray_border"
+                android:backgroundTint="@color/dark_blue"
+                android:text="@string/save_continue"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Splash_PIATS"
+        android:id="@+id/activity_splash_screen"
+        android:background="@color/white"
+        tools:ignore="ScrollViewSize">
+
+        <ImageView
+            android:id="@+id/splashscreen_img_clouds"
+            android:layout_width="@dimen/_440sdp"
+            android:layout_height="@dimen/_195sdp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/white_clouds_png_clipart_882_1" />
+
+        <ImageView
+            android:id="@+id/splashscreen_img_logo"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_below="@+id/splashscreen_img_clouds"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/government_of_punjab_logo_1e1a7ab42a_seeklogo_2_1_" />
+
+        <TextView
+            android:id="@+id/splashscreen_textview_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splashscreen_img_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="@string/pakistan_animal_identification_traceability_system"
+            android:textAlignment="center"
+            android:textColor="@color/splash_font_color"
+            android:textSize="@dimen/_13ssp" />
+
+
+        <ImageView
+            android:id="@+id/splashscreen_img_goats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splashscreen_textview_Title"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/bottom_goats_ic1" />
+
+    </RelativeLayout>
